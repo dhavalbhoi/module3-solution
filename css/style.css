@@ -1,0 +1,194 @@
+/* =========================================
+   GENERAL
+========================================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #ffffff;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+#header-nav {
+    background-color: #f8f8f8;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+
+/* Food, LLC */
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333 !important;
+}
+
+
+/* =========================================
+   MOBILE NAVIGATION
+========================================= */
+
+#collapsable-nav {
+    border-top: 1px solid #ddd;
+}
+
+
+/* Menu items */
+
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* Individual menu item */
+
+#nav-list li {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Menu links */
+
+#nav-list li a {
+    color: #333;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+/* Hover effect */
+
+#nav-list li a:hover {
+    background-color: #e7e7e7;
+}
+
+
+/* =========================================
+   OUR MENU HEADING
+========================================= */
+
+#our-menu {
+    font-size: 36px;
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* =========================================
+   MENU SECTIONS
+========================================= */
+
+.menu-section {
+
+    background-color: #e7e7e7;
+
+    border: 1px solid #999;
+
+    padding: 20px;
+
+    margin-bottom: 30px;
+
+    min-height: 650px;
+}
+
+
+/* Section headings */
+
+.menu-section h2 {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    margin-top: 0;
+
+    margin-bottom: 25px;
+}
+
+
+/* Paragraphs */
+
+.menu-section p {
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   MOBILE VIEW
+========================================= */
+
+@media (max-width: 767px) {
+
+    #header-nav {
+        margin-bottom: 20px;
+    }
+
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+
+    #our-menu {
+
+        font-size: 32px;
+
+        margin-top: 25px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .menu-section {
+
+        min-height: 600px;
+
+        margin-left: 0;
+
+        margin-right: 0;
+    }
+
+}
+
+
+/* =========================================
+   TABLET VIEW
+========================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .menu-section {
+
+        min-height: 650px;
+    }
+
+}
+
+
+/* =========================================
+   DESKTOP VIEW
+========================================= */
+
+@media (min-width: 992px) {
+
+    .menu-section {
+
+        min-height: 650px;
+    }
+
+}
+
